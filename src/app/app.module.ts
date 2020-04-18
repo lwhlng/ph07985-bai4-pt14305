@@ -21,6 +21,7 @@ import { IndexclientComponent } from './indexclient/indexclient.component';
     ProductManagerComponent,
     HomeComponent,
     AboutComponent,
+    IndexAdminComponent,
     IndexclientComponent,
   ],
   imports: [
