@@ -10,6 +10,9 @@ import { SliderComponent } from './slider/slider.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { IndexAdminComponent } from './admin/index-admin/index-admin.component';
+import { AddProductComponent } from './admin/add-product/add-product.component';
+import { EditProductComponent } from './admin/edit-product/edit-product.component';
 import { IndexcientComponent } from './indexcient/indexcient.component';
 
 @NgModule({
