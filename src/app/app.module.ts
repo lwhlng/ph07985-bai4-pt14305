@@ -14,6 +14,7 @@ import { IndexAdminComponent } from './admin/index-admin/index-admin.component';
 import { AddProductComponent } from './admin/add-product/add-product.component';
 import { EditProductComponent } from './admin/edit-product/edit-product.component';
 import { IndexcientComponent } from './indexcient/indexcient.component';
+import { IndexclientComponent } from './indexclient/indexclient.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { IndexcientComponent } from './indexcient/indexcient.component';
     HomeComponent,
     AboutComponent,
     IndexcientComponent,
+    IndexclientComponent,
   ],
   imports: [
     BrowserModule,
