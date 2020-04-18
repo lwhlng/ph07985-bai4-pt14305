@@ -10,6 +10,7 @@ import { SliderComponent } from './slider/slider.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { IndexcientComponent } from './indexcient/indexcient.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { AboutComponent } from './about/about.component';
     ProductManagerComponent,
     HomeComponent,
     AboutComponent,
+    IndexcientComponent,
   ],
   imports: [
     BrowserModule,
