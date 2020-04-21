@@ -8,7 +8,8 @@ import{ Product } from '../Product'
   styleUrls: ['./product-manager.component.css']
 })
 export class ProductManagerComponent implements OnInit {
-
+  page = 1;
+  pageSize = 3;
   constructor(
     private productService: ProductService
   ) { }
