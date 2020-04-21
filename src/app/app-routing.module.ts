@@ -6,6 +6,7 @@ import { ProductManagerComponent } from './product-manager/product-manager.compo
 import { AboutComponent } from './about/about.component';
 import { IndexclientComponent } from './indexclient/indexclient.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   {path: '', redirectTo: 'client', pathMatch: 'full'},
@@ -14,7 +15,8 @@ const routes: Routes = [
     {path: '', redirectTo: 'home', pathMatch: 'full'},
     {path: 'home', component: HomeComponent},
     {path: 'manager', component: ProductManagerComponent},
-    {path: 'about', component: AboutComponent}
+    {path: 'about', component: AboutComponent},
+    {path: 'contact', component: ContactComponent}
   ]
   },
   {path: 'admin', component: IndexAdminComponent,},
